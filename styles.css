@@ -152,6 +152,23 @@ h3 {
     color: #2c3e50;
 }
 
+/* Seção de soluções */
+.solution-section {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.solution-section img.section-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    opacity: 0.35;       
+    object-fit: cover;   
+    pointer-events: none; 
+}
+
 /* Tabela de soluções */
 .solution-table {
     width: 100%;
